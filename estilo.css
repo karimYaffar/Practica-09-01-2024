@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .contenedor-flex {
+    display: flex;
+    flex-direction: column; 
+    height: 100%;
+    position: relative; 
+  }
+  
+  .mitad {
+    flex: 1;
+    border: 1px solid #ccc;
+    color: aliceblue;
+  }
+  
+  .arriba {
+    background-color: #da0a0a;
+  }
+  
+  .abajo {
+    background-color: #171616;
+  }
+  
+  .centro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .centro img {
+    border-radius: 50%; 
+    overflow: hidden;
+    width: 80px; 
+    height: 80px; 
+    object-fit: cover; 
+  }
+  
